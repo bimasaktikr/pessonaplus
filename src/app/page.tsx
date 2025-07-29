@@ -24,22 +24,26 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
             
             {/* Blog navigation button with book icon */}
-            <Link 
-              href="blog.pessona.bpskotamalang.id"
+            <a
+              href="https://blog.pessona.bpskotamalang.id"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg font-semibold text-white bg-orange-600 hover:bg-orange-700 focus:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded-lg transition-all duration-200 transform hover:scale-105 w-full sm:w-auto min-w-[200px]"
             >
               <BookOpen className="w-5 h-5" />
               Menuju Blog
-            </Link>
+            </a>
 
             {/* LMS navigation button with graduation cap icon */}
-            <Link 
-              href="lms.pessona.bpskotamalang.id"
+            <a
+              href="https://lms.pessona.bpskotamalang.id"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg font-semibold text-orange-600 bg-white border-2 border-orange-600 hover:bg-orange-50 focus:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded-lg transition-all duration-200 transform hover:scale-105 w-full sm:w-auto min-w-[200px]"
             >
               <GraduationCap className="w-5 h-5" />
               Menuju LMS
-            </Link>
+            </a>
           </div>
 
         </div>
