@@ -25,7 +25,7 @@ export default function Home() {
             
             {/* Blog navigation button with book icon */}
             <Link 
-              href="/blog"
+              href="blog.pessona.bpskotamalang.id"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg font-semibold text-white bg-orange-600 hover:bg-orange-700 focus:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded-lg transition-all duration-200 transform hover:scale-105 w-full sm:w-auto min-w-[200px]"
             >
               <BookOpen className="w-5 h-5" />
@@ -34,7 +34,7 @@ export default function Home() {
 
             {/* LMS navigation button with graduation cap icon */}
             <Link 
-              href="/lms"
+              href="lms.pessona.bpskotamalang.id"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg font-semibold text-orange-600 bg-white border-2 border-orange-600 hover:bg-orange-50 focus:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded-lg transition-all duration-200 transform hover:scale-105 w-full sm:w-auto min-w-[200px]"
             >
               <GraduationCap className="w-5 h-5" />
